@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UF-8T" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>elzero</title>
+  </head>
+  <body>
+    <!-- start setting box -->
+    <div class="setting-box">
+      <div class="toggle-setting">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="settign-container">
+        <div class="option-box">
+          <h4>colors</h4>
+          <ul class="color-list">
+            <li class="active" data-color="#eb6b56"></li>
+            <li data-color="#462446"></li>
+            <li data-color="#b05f6d"></li>
+            <li data-color="#ffc153"></li>
+            <li data-color="#47b39d"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4 class="marg">remove bullets</h4>
+          <div class="option-box-bullet">
+            <span class="yes active" data-display="show">yes</span>
+            <span class="no" data-display="hidden">no</span>
+          </div>
+        </div>
+        <button class="reset-options">reset option</button>
+      </div>
+    </div>
+    <!-- end setting box -->
+    <div class="navigation">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">
+          about us
+        </div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">
+          skills
+        </div>
+      </div>
+      <div class="bullet" data-section=".galary">
+        <div class="tooltip">
+          Our Galary
+        </div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">
+          Our Features
+        </div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">
+          Testimonials
+        </div>
+      </div>
+    </div>
+    <!-- start landing page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <div class="logo">hany</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#" class="active">home</a></li>
+              <li><a href="#" data-section=".about-us">about</a></li>
+              <li><a href="#" data-section=".skills">skills</a></li>
+              <li><a href="#" data-section=".galary">galary</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li>
+                <a href="#testimonials" data-section=".testimonials"
+                  >Testimonials</a
+                >
+              </li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="intro-text">
+        <h1>we are <span> creative</span> agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          eos natus saepe.
+        </p>
+      </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start about -->
+    <div class="container">
+      <div class="about-us" id="about-us">
+        <div class="info-box">
+          <h2>about us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            earum ab facere accusantium, alias sit maxime.
+          </p>
+        </div>
+        <div class="img-box">
+          <img src="image/about1.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end about -->
+    <!--stast skills  -->
+    <div class="skills" id="skills">
+      <div class="container">
+        <h2>our skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">html</div>
+          <div class="skill-progress"><span data-progress="70%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">css</div>
+          <div class="skill-progress"><span data-progress="16%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">javascript</div>
+          <div class="skill-progress"><span data-progress="40%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">python</div>
+          <div class="skill-progress"><span data-progress="30%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">react.js</div>
+          <div class="skill-progress"><span data-progress="100%"></span></div>
+        </div>
+      </div>
+    </div>
+    <!--end skills  -->
+    <!-- start galary -->
+    <div class="galary" id="galary">
+      <div class="container">
+        <h2>our galary</h2>
+        <div class="image">
+          <div class="img-box">
+            <img src="image/car1.jpg" alt="one" srcset="" />
+          </div>
+          <div class="img-box">
+            <img src="image/car2.jpg" alt="one" srcset="" />
+          </div>
+          <div class="img-box">
+            <img src="image/car3.jpg" alt="one" srcset="" />
+          </div>
+          <div class="img-box">
+            <img src="image/car4.jpg" alt="one" srcset="" />
+          </div>
+          <div class="img-box">
+            <img src="image/car5.jpg" alt="one" srcset="" />
+          </div>
+          <div class="img-box">
+            <img src="image/car6.jpg" alt="one" srcset="" />
+          </div>
+          <div class="img-box">
+            <img src="image/car7.jpg" alt="one" srcset="" />
+          </div>
+          <div class="img-box">
+            <img src="image/car8.jpg" alt="one" srcset="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end galary -->
+    <!-- start timeline -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2020</div>
+          <div class="leftandright">
+            <div class="left">
+              <div class="content">
+                <h3>testing heading</h3>
+                <p>
+                  ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                  debitis laboriosam ex tenetur vitae mollitia iure temporibus
+                  voluptates qui.
+                </p>
+              </div>
+            </div>
+            <div class="right">
+              <div class="content">
+                <h3>testing heading</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita debitis laboriosam ex tenetur vitae mollitia iure
+                  temporibus voluptates qui.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="year">2022</div>
+          <div class="leftandright">
+            <div class="left">
+              <div class="content">
+                <h3>testing heading</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita debitis laboriosam ex tenetur vitae mollitia iure
+                  temporibus voluptates qui.
+                </p>
+              </div>
+            </div>
+            <div class="right">
+              <div class="content">
+                <h3>testing heading</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita debitis laboriosam ex tenetur vitae mollitia iure
+                  temporibus voluptates qui.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end timeline -->
+    <!-- start features -->
+    <div class="features" id="features">
+      <div class="container">
+        <h1>our features</h1>
+        <div class="feat-cont">
+          <div class="feat-box">
+            <div class="images">
+              <img src="image/gallery-01.png" alt="" />
+            </div>
+            <div class="info">
+              <div>develpment</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, quae?
+              </p>
+            </div>
+          </div>
+          <div class="feat-box">
+            <div class="images">
+              <img src="image/gallery-02.png" alt="" />
+            </div>
+            <div class="info">
+              <div>develpment</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, quae?
+              </p>
+            </div>
+          </div>
+          <div class="feat-box">
+            <div class="images">
+              <img src="image/gallery-03.jpg" alt="" />
+            </div>
+            <div class="info">
+              <div>develpment</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, quae?
+              </p>
+            </div>
+          </div>
+          <div class="feat-box">
+            <div class="images">
+              <img src="image/gallery-04.png" alt="" />
+            </div>
+            <div class="info">
+              <div>develpment</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, quae?
+              </p>
+            </div>
+          </div>
+          <div class="feat-box">
+            <div class="images">
+              <img src="image/gallery-05.jpg" alt="" />
+            </div>
+            <div class="info">
+              <div>develpment</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, quae?
+              </p>
+            </div>
+          </div>
+          <div class="feat-box">
+            <div class="images">
+              <img src="image/gallery-06.png" alt="" />
+            </div>
+            <div class="info">
+              <div>develpment</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, quae?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end features -->
+    <!--start testimonials -->
+    <div class="testimonials" id="testimonials">
+      <div class="container">
+        <h1 class="first">testimonials</h1>
+        <div class="testimon-content">
+          <div class="person">
+            <div class="box1"></div>
+            <div class="person-info">
+              <div class="images">
+                <img src="image/avatar-01.png" alt="" />
+              </div>
+              <div class="testimon-info">
+                <h1>hany mohamd</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur vero laudantium.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="person">
+            <div class="box2"></div>
+            <div class="person-info">
+              <div class="images">
+                <img src="image/avatar-02.png" alt="" />
+              </div>
+              <div class="testimon-info">
+                <h1>ahmed mohamd</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur vero laudantium.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="person">
+            <div class="box3"></div>
+            <div class="person-info">
+              <div class="images">
+                <img src="image/avatar-03.png" alt="" />
+              </div>
+              <div class="testimon-info">
+                <h1>sama mohamd</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore consectetur vero laudantium.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end  testimonials -->
+    <!-- start contact -->
+    <div class="contact">
+      <div class="overlay-contact"></div>
+      <div class="container">
+        <h2>contact us</h2>
+        <form action="">
+          <div class="left-input">
+            <input type="text" placeholder="Your Name" />
+            <input type="text" placeholder="Your Number" />
+            <input type="email" name="" id="" placeholder="Your Email" />
+            <input type="text" placeholder="Subject" />
+          </div>
+          <div class="right-input">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="info">© made by <span>hany mohamd </span></div>
+        </div>
+        <div class="icon">
+          <img src="image/facebook.png" alt="" />
+          <img src="image/youtube.png" alt="" />
+          <img src="image/instagram.png" alt="" />
+          <img src="image/linked.png" alt="" />
+        </div>
+      </div>
+    </footer>
+
+    <!-- end footer -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
